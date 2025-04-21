@@ -1,0 +1,27 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: rgb(234, 127, 145);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 7px;
+  border: solid black 1px;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  background-color: white;
+}
+button{
+  border: none;
+  padding: 7px;
+  border: solid black 1px;
+  border-radius: 18px;
+  background-color: pink;
+  color: white;
+}
